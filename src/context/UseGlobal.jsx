@@ -8,7 +8,7 @@ const changeState = (state, action) => {
     case "LOG_OUT":
       return { ...state, user: null };
     case "INITIAL_DATA":
-      return { ...state, user: action.payloa };
+      return { ...state, user: action.payload};
     case "AUTH_READY":
       return { ...state, authReady: true };
     default:
