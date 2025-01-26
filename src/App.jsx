@@ -50,12 +50,11 @@ function App() {
           <MainLayout />
         </ProtectedRoutes>
       ),
-      errorElement: <Error />,
+      // errorElement: <Error />,
       children: [
         {
           index: true,
           element: <Home />,
-
           loader: Homeloader,
         },
         {

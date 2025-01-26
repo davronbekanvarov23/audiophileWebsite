@@ -1,6 +1,5 @@
 import axios from "axios";
-const productsUrl =
-  "http://localhost:4000/";
+const productsUrl = "https://6793a3f65eae7e5c4d8f6585.mockapi.io/products";
 
 export const customFetch = axios.create({
   baseURL: productsUrl,

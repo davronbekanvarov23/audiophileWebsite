@@ -39,6 +39,7 @@ function Cart() {
           </thead>
           <tbody>
             {products.map((product) => {
+              // console.log(product);
               return (
                 <tr key={product.id}>
                   <td>

@@ -8,7 +8,7 @@ import Shop from "../components/Shop";
 import MainFooter from "../components/MainFooter";
 import { Hero } from "../components";
 export const loader = async ({ params }) => {
-  const req = await customFetch(`/users/?slug=${params.slug}`);
+  const req = await customFetch(`/products/?slug=${params.slug}`);
   const product = req.data;
   // console.log(product);
   return { product };

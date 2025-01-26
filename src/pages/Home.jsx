@@ -12,12 +12,12 @@ import Zx9D from "../../public/assets/home/desktop/image-speaker-zx9.png";
 import Zx9T from "../../public/assets/home/tablet/image-speaker-zx9.png";
 import Zx9M from "../../public/assets/home/mobile/image-speaker-zx9.png";
 
-const url = "/users";
+const url = "/products";
 export const loader = async () => {
   const req = await customFetch(url);
 
   const products = req.data;
-// console.log(products);
+  // console.log(products);
   return { products };
 };
 

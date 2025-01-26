@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useLoaderData } from "react-router-dom";
 import { customFetch } from "../utils";
-const url = "/users/?category=earphones";
+const url = "/products/?category=earphones";
 export const loader = async () => {
   const req = await customFetch(url);
   const product = req.data;
