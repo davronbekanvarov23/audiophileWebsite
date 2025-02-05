@@ -29,7 +29,7 @@ function SignUp() {
   }, [actionData]);
 
   return (
-    <div className="min h-screen grid place-content-center w-full">
+    <div className="min h-screen grid place-content-center  px-4 align-content">
       <div className="mb-3">
         <Form method="post" className="mb-3 w-96">
           <h1 className="text-4xl font-bold text-center">Sign Up</h1>
